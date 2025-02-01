@@ -3,11 +3,14 @@ package demo.simpleapp.demoapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import demo.simpleapp.demoapi.run.Location;
+import demo.simpleapp.demoapi.run.Run;
+
 import org.springframework.boot.CommandLineRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import demo.simpleapp.run.Run;
-import demo.simpleapp.run.Location;
+
 import java.time.LocalDateTime;
 
 @SpringBootApplication
